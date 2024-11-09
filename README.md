@@ -14,15 +14,23 @@
    ```
 
 2. **Make the Script Executable**:
-   Navigate into the cloned directory and make the script executable:
+   Navigate into the cloned directory and make the script executable: 
    ```bash
    chmod +x sysopctl_mac.sh
+   ```
+   OR (For Linux):
+   ```bash
+   chmod +x sysopctl_linux.sh
    ```
 
 3. **Create an Alias**: 
    To run the command easily from any location, set up an alias in the terminal. This alias will allow you to use sysopctl_mac instead of typing the full script path every time.
    ```bash
    alias sysopctl='./sysopctl_mac.sh'
+   ```
+   OR (For Linux):
+   ```bash
+   alias sysopctl='./sysopctl_linux.sh'
    ```
 
 ## Usage
